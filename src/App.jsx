@@ -94,7 +94,7 @@ function App() {
               htmlFor="prompt"
               className="block text-sm font-medium text-gray-700 dark:text-gray-300"
             >
-              Enter Topic
+              Enter a Topic name to generate <span className=" font-bold text-lg">15 most important</span> mcqs:
             </label>
             <input
               id="prompt"
