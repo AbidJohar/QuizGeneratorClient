@@ -8,7 +8,8 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const url ='http://localhost:3000';  
+  const url ='https://quizgeneratorserver-production.up.railway.app';  
+  //  const url = 'http://localhost:3000'
 
   const toggleTheme = () => {
     setDarkMode((prev) => {
