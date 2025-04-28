@@ -8,7 +8,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const url = import.meta.env.VITE_BACKEND_URL // Your backend URL
+  const url ='http://localhost:3000';  
 
   const toggleTheme = () => {
     setDarkMode((prev) => {
